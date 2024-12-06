@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!--
+Name: Andre Duran
+Student Number: C0945146
+-->
+<html lang="en">
+<head>
+    <title>Cell Solutions: Contact Us</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <!-- Meta Viewport Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom Fonts Import -->
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Koh+Santepheap:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="images/favicon/android-chrome-192.png">
+</head>
+<body>
+    <header>
+    </header>
+
+    <nav>
+        <a href="index.html"><img src="images/cell_solutions_white_transparent.png" alt="company brand logo"></a>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>    
+            <li><a href="team.html">TEAM</a></li>    
+            <li><a href="specials.html">SPECIALS</a></li>    
+            <li><a href="training.html">TRAINING</a></li>    
+            <li><a href="media.html">MEDIA</a></li>    
+            <li><a href="faqs.html">FAQs</a></li>    
+            <li><a href="contact.html">CONTACT</a></li>    
+        </ul>
+    </nav>
+
+    <main>
+        <section class="visit">
+
+            <h1>Do you want to learn more?<br>Get in touch with us today.</h1>
+
+            <h3>Visit us at: 249 London Rd, Sarnia, ON N7T 4V9</h3>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1459.5004638359173!2d-82.40095728806648!3d42.978254100000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88259cc87e54ca85%3A0xf8559e94e7f4f061!2s249%20London%20Rd%2C%20Sarnia%2C%20ON%20N7T%204V9!5e0!3m2!1sen!2sca!4v1733334610517!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+        </section>
+        
+        <section class="guide">
+
+            <h1>Complete the form below to contact us</h1>
+            <h2>Make sure to follow these guidelines</h2>
+            <ol>
+                <li>Fill out the form below with accurate information.</li>
+                <li>Choose the type of inquiry and, if desired, select a preferred date to speak with us.</li>
+                <li>Submit the form to send your request.</li>
+            </ol>
+
+        </section>
+        
+        <section>
+
+            <form >
+
+                <div class="form-grid">
+
+                    <fieldset class="personal">
+                    
+                        <legend>Personal Information</legend>
+    
+                        <label for="first-name">First Name:</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required autofocus>
+                        
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+                        
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                        
+                        <label for="phone">Phone Number:</label>
+                        <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required>
+                        
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="address" placeholder="Enter your address" required>
+    
+                    </fieldset>
+        
+                    <fieldset class="details">
+                        
+                        <legend>Inquiry Details</legend>
+    
+                        <label class="label-block">Select your region:</label>
+    
+                        <input type="radio" id="canada" name="region" value="Canada" checked>
+                        <label for="canada" class="canada">Canada</label>
+                        
+                        <input type="radio" id="international" name="region" value="International">
+                        <label for="international">International</label>
+                        
+                        <label for="inquiry-type" class="label-block">Type of Inquiry:</label>
+                        <select id="inquiry-type" name="inquiry-type" required>
+                            <option value="Product Inquiry" selected>Product Inquiry</option>
+                            <option value="Job Inquiry">Job Inquiry</option>
+                            <option value="Business Inquiry">Business Inquiry</option>
+                        </select>
+                        
+                        <label for="preferred-date" class="label-block">Preferred Date to Contact:</label>
+                        <input type="date" id="preferred-date" name="preferred-date" class="date">
+    
+                        <label for="message" class="label-block">Additional Details:</label>
+                        <textarea id="message" name="message" rows="5" cols="40" placeholder="Let us know if you need information on any particular topic"></textarea>
+    
+                    </fieldset>
+
+                </div>
+
+            <div class="buttons">
+
+                <button type="submit">Submit Form</button>
+                <button type="reset">Reset Form</button>
+
+            </div>
+            
+        </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; Copyright 2024. All Rights Reserved.
+        <br><a href="mailto:info@cellsolutions.com">Request Information</a>
+        <br>Andre Duran &nbsp; &nbsp; C0945146</p>
+    </footer>
+</body>
+</html>

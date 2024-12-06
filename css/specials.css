@@ -1,0 +1,85 @@
+.product-week {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0 3.5em;
+    grid-gap: 1.5em;
+    margin: 5em 0;
+    align-items: center;
+}
+
+.product-week h1 {
+    font-size: 2em;
+}
+
+.product-week h2 {
+    margin-bottom: 1em;
+}
+
+.product-week ul {
+    margin: 1em 0 0 1.5em;
+}
+
+.product-week li {
+    font-family: 'Koh Santepheap';
+}
+
+.product-week img {
+    max-width: 100%;
+}
+
+/* Reasons to trust Us styles */
+.reasons-section {
+    background-color: #328fdb;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+}
+
+.reasons-section h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0.25em;
+}
+
+.reasons-section h2 {
+    color: #ffd104;
+    text-align: center;
+    font-size: 1.25em;
+    margin-bottom: 1em;
+}
+
+.reasons-section h3 {
+    color: #328fdb;
+    text-align: center;
+    font-family: 'Instrument Sans';
+    font-size: 1.25em;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+}
+
+.reasons-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 0 20px;
+}
+
+.reasons-article {
+    background-color: #fff;
+    padding: 2%;
+}
+
+.reasons-article img {
+    display: block;
+    margin: auto;
+    margin-bottom: 1em;
+    max-width: 100%;
+}
+
+.reasons-article p {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.reasons-round {
+    border-radius: 10px;
+}

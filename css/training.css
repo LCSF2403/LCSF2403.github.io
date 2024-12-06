@@ -1,0 +1,97 @@
+/* general styles --------------------------------------------- */
+header {
+    text-align: center;
+    background-color: #d9d9d9;
+}
+
+header img {
+    max-width: 100%;
+    margin-bottom: 2em;
+}
+
+header p {
+    margin-top: 1.25em;
+    padding-bottom: 3em;
+}
+
+/* list styles --------------------------------------------- */
+.benefits {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    background-color: #ffd104;
+}
+
+.benefits h1 {
+    font-size: 2em;
+    padding-bottom: 1em;
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.benefits ul li {
+    list-style-type: "🗲";
+    font-family: 'Koh Santepheap';
+    display: list-item;
+    margin: auto;
+    width: 75%;
+    list-style-position: outside;
+    padding-left: 1em;
+}
+
+/* table styles --------------------------------------------- */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border: 0.25em #1F5581 solid;
+    border-collapse: collapse;
+}
+
+table img {
+    height: 150px;
+    width: auto;
+}
+
+caption {
+    font-size: 2.5em;
+    font-family: 'Instrument Sans';
+    font-weight: bold;
+    color: #1da9ff;
+    margin-bottom: 1em;
+}
+
+th, td {
+    border: 0.25em #1F5581 solid;
+    text-align: center;
+    padding: 1.5em;
+}
+
+th {
+    background-color: #1F5581;
+    color: #f9f9f9;
+    font-weight: bold;
+    font-family: 'Instrument Sans';
+    padding: 1.5em 0;
+}
+
+tr {
+    font-family: 'Koh Santepheap';
+    font-size: 0.85em;
+}
+
+tr:nth-child(odd) {
+    background-color: #b3d7ff;
+}
+
+tr:hover {
+    background-color: #ffd104;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.table-container {
+    margin: 2.5em 0 5em 0;
+}

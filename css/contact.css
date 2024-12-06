@@ -1,0 +1,131 @@
+body {
+    font-family: 'Instrument Sans';
+}
+
+/* general styles --------------------------------------------- */
+form {
+    width: 80%;
+    margin: 2em auto;
+    padding: 2em;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+}
+
+form fieldset {
+    margin-bottom: 1em;
+    padding: 2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0 0.5em;
+}
+
+/* classes styles --------------------------------------------- */
+.visit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5em;
+    padding: 3em;
+}
+
+.visit h1 {
+    font-size: 2em;
+}
+
+.guide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    row-gap: 1em;
+    background-color: #e9e9e9;
+    padding: 3em 0;
+}
+
+.guide h1 {
+    font-size: 2em;
+}
+
+.guide h2 {
+    font-size: 1.5em;
+}
+
+.guide ol li {
+    display: list-item;
+    list-style-type: decimal;
+    text-align: left;
+    list-style-position: outside;
+    padding-left: 1em;
+    font-size: 1em;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 25px;
+}
+
+.personal label {
+    display: block;
+    margin-bottom: 0.25em;
+    font-weight: bold;
+}
+
+.personal input {
+    width: 95%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.25em 0;
+    padding-left: 0.5em;
+    margin-bottom: 1em;
+}
+
+.details input, .details select, .details textarea {
+    margin-right: 0.25em;
+    margin-bottom: 1em;
+}
+
+.details select, .details textarea, .date {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.25em 0;
+}
+
+.canada {
+    margin-right: 1em;
+}
+
+.label-block {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.25em;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.75em;
+}
+
+.buttons button {
+    width: auto;
+    padding: 1.5em 2em;
+    background: #1da9ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buttons button:hover {
+    background: #333333;
+}

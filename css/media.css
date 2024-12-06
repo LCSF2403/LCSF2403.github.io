@@ -1,0 +1,85 @@
+/* intro styles ------------------------- */
+.intro {
+    text-align: center;
+    background-color: #e9e9e9;
+    padding: 2em 0;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.intro p {
+    font-family: 'Instrument Sans';
+    font-size: 1.1em;
+    width: 50%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+/* audio styles ------------------------- */
+.ceo {
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    grid-gap: 5em;
+    padding: 5em;
+    margin: 0 auto;
+}
+
+.ceo img {
+    border-radius: 50%;
+}
+
+.ceo figcaption {
+    font-family: 'Instrument Sans';
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+
+.ceo p {
+    text-align: justify;
+}
+
+.ceo audio {
+    display: block;
+    margin: 2em auto;
+}
+
+/* video styles ------------------------- */
+.videos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 2em;
+    padding: 0 2em;
+    padding-bottom: 5em;
+    background-color: #ffd104;
+}
+
+.videos h1 {
+    text-align: center;
+    grid-column: 1 / span 3;
+    padding: 1.5em 0;
+    font-size: 2.5em;
+}
+
+.videos h2 {
+    margin-bottom: 0.5em;
+    padding-left: 0.5em;
+    border-left: #1f5581 solid 5px;
+}
+
+.videos video {
+    max-width: 100%;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
+}
+
+.videos p {
+    margin-top: 1.5em;
+    text-align: center;
+}
